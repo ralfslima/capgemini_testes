@@ -1,0 +1,59 @@
+import javax.swing.*;
+import java.util.Scanner;
+
+public class Main {
+
+    // Metodo responsavel pela inicialização do projeto
+    public static void main(String[] args) {
+        //************* Exibir mensagem
+        //System.out.println("Hello World!");
+
+        //************* Variáveis
+        //String nome = "Roberto";
+        //int idade = 31;
+        //double altura = 1.71;
+
+        // Concatenação
+        //System.out.println("Olá " + nome +", você tem " + idade + " anos.");
+
+        //************* Console/Terminal
+        //Scanner obj = new Scanner(System.in);
+
+        // Obter o nome
+        //System.out.println("Qual é o seu nome?");
+        //String nome = obj.next();
+
+        // Concatenação
+        //System.out.println("Bom dia " + nome + "!");
+
+        //*************Modal
+        //String nome = JOptionPane.showInputDialog("Qual é o seu nome?");
+        //JOptionPane.showMessageDialog(null, "Bom dia " + nome);
+
+        //*************Constante
+        //final String nome = "Ralf";
+
+        //************* Operadores
+        System.out.println(5 + 6);
+        System.out.println(8 - 3);
+        System.out.println(5 * 9);
+        System.out.println(10 / 2);
+        System.out.println(9 % 2);
+
+        System.out.println(10 > 9);  // Maior
+        System.out.println(10 >= 9); // Maior ou Igual
+        System.out.println(10 < 9);  // Menor
+        System.out.println(10 <= 9); // Menor ou Igual
+        System.out.println(10 == 9); // Igual
+        System.out.println(10 != 9); // Diferente
+
+        double media = 8;
+        int faltas = 10;
+        boolean aprovado = true;
+        System.out.println(media >= 7 && faltas <= 10);  // E
+        System.out.println(media >= 7 || faltas <= 10);  // OU
+        System.out.println(!aprovado);                   // Negação
+
+    }
+
+}
