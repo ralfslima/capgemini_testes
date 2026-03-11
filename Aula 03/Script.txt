@@ -1,0 +1,168 @@
+import javax.swing.*;
+import java.util.Scanner;
+
+public class Main {
+
+    // Metodo responsavel pela inicialização do projeto
+    public static void main(String[] args) {
+        //************* Exibir mensagem
+        //System.out.println("Hello World!");
+
+        //************* Variáveis
+        //String nome = "Roberto";
+        //int idade = 31;
+        //double altura = 1.71;
+
+        // Concatenação
+        //System.out.println("Olá " + nome +", você tem " + idade + " anos.");
+
+        //************* Console/Terminal
+        //Scanner obj = new Scanner(System.in);
+
+        // Obter o nome
+        //System.out.println("Qual é o seu nome?");
+        //String nome = obj.next();
+
+        // Concatenação
+        //System.out.println("Bom dia " + nome + "!");
+
+        //*************Modal
+        //String nome = JOptionPane.showInputDialog("Qual é o seu nome?");
+        //JOptionPane.showMessageDialog(null, "Bom dia " + nome);
+
+        //*************Constante
+        //final String nome = "Ralf";
+
+        //************* Operadores
+        //        System.out.println(5 + 6);
+        //        System.out.println(8 - 3);
+        //        System.out.println(5 * 9);
+        //        System.out.println(10 / 2);
+        //        System.out.println(9 % 2);
+        //
+        //        System.out.println(10 > 9);  // Maior
+        //        System.out.println(10 >= 9); // Maior ou Igual
+        //        System.out.println(10 < 9);  // Menor
+        //        System.out.println(10 <= 9); // Menor ou Igual
+        //        System.out.println(10 == 9); // Igual
+        //        System.out.println(10 != 9); // Diferente
+        //
+        //        double media = 8;
+        //        int faltas = 10;
+        //        boolean aprovado = true;
+        //        System.out.println(media >= 7 && faltas <= 10);  // E
+        //        System.out.println(media >= 7 || faltas <= 10);  // OU
+        //        System.out.println(!aprovado);                   // Negação
+
+        //************* Condicional - Simples
+        //int idade = 20;
+        //
+        //if(idade >= 18)
+        //    System.out.println("Maior de idade");
+        //else
+        //    System.out.println("Menor de idade");
+
+        //String nome = "Natália";
+        //int idade = 18;
+        //
+        //if(idade >= 18) {
+        //    System.out.println(nome + " é maior de idade!");
+        //    System.out.println("A idade da " + nome + " é " + idade);
+        //} else {
+        //    System.out.println(nome + " é menor de idade!");
+        //    System.out.println("A idade da " + nome + " é " + idade);
+        //}
+
+        //************* Condicional - Estruturada/Composta
+        //double media = 6;
+        //
+        //if(media >= 7)
+        //    System.out.println("Aprovado(a)");
+        //else if(media >= 5)
+        //    System.out.println("Em recuperação");
+        //else
+        //    System.out.println("Reprovado(a)");
+
+        //************* Condicional - Aninhada
+        //double media = 8.5;
+        //int faltas = 7;
+        //
+        //if(faltas <= 10) {
+        //
+        //    if(media >= 7)
+        //        System.out.println("Aprovado(a).");
+        //    else
+        //        System.out.println("Reprovado(a) por média.");
+        //
+        //} else {
+        //    System.out.println("Reprovado(a) por faltas.");
+        //}
+
+        //************* Condicional + Operadores Lógicos
+        //double total = 1560.88;
+        //String pagamento = "à vista";
+        //
+        ////if (total >= 1000 && pagamento == "à vista")   <- E
+        //if (total >= 1000 || pagamento == "à vista")  // <- OU
+        //    System.out.println("Total R$" + (total * 0.9));
+        //else
+        //    System.out.println("Total R$ " + total);
+
+        //************* Operador ternário
+        //double media = 9;
+        //
+        //System.out.println(media >= 7 ? "Aprovado(a)" : "Reprovado(a)");
+        //
+        //System.out.println(
+        //        media >= 7
+        //        ?
+        //            "Aprovado(a)"
+        //        :
+        //            media >= 5
+        //            ?
+        //            "Em recuperação"
+        //            :
+        //            "Reprovado(a)"
+        //);
+
+        //************* Exercícios
+        //1º Peça um nome e uma cidade, em seguida concatene uma frase.
+
+        //2º Peça dois números reais (double) e realizar a média. Informe a situação
+        // do aluno. Aprovado para média 7 ou superior e reprovado para média
+        // inferior a 7.
+
+        //3º Peça dois números inteiros. Se forem iguais, some, caso contrário
+        // multiplique os valores.
+
+        //4º Peça o nome do produto e o valor. Caso o produto tenha valor superior
+        // a R$100,00, dê um desconto de 5%.
+
+        //5º Peça um número inteiro, retorne se é par ou ímpar.
+
+        //6º (Bônus) Peça dois números inteiros, em seguida some.
+
+        //a)
+        //int numero1 = 8;
+        //int numero2 = 9;
+        //System.out.println("A soma dos valores é: " + (numero1+numero2));
+
+        //b)
+        //Scanner obj = new Scanner(System.in);
+
+        //System.out.println("Informe o 1º número.");
+        //int numero1 = obj.nextInt();
+        //System.out.println("Informe o 2º número.");
+        //int numero2 = obj.nextInt();
+
+        //System.out.println("A soma dos valores é: " + (numero1+numero2));
+
+        //c)
+        int numero1 = Integer.parseInt(JOptionPane.showInputDialog("Informe o 1º número"));
+        int numero2 = Integer.parseInt(JOptionPane.showInputDialog("Informe o 2º número"));
+
+        JOptionPane.showMessageDialog(null, "A soma dos valores é: " + (numero1+numero2));
+    }
+
+
+}
