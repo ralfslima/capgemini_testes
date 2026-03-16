@@ -35,5 +35,5 @@ public class Produto {
     public    -> Qualquer um tem acesso.
     private   -> Disponível apenas na classe onde é criado.
     protected -> Disponível na classe onde são criados ou herdados.
-    default   -> Atributos e métodos disponíveis apenas no mesmo projeto.
+    default   -> Atributos e métodos disponíveis apenas no mesmo pacote.
 */
